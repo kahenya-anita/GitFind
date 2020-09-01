@@ -3,7 +3,7 @@ import { Routes, RouterModule } from '@angular/router';
 import { HomeComponent } from './Components/home/home.component';
 import { ProfileComponent } from './Components/profile/profile.component';
 import { RepoSearchComponent } from './Components/repo-search/repo-search.component';
-import { NotFoundComponent } from './Components/not-found/not-found/not-found.component';
+import { NotFoundComponent } from './Components/not-found/not-found.component';
 import { SearchresultComponent } from './Components/searchresult/searchresult.component';
 
 const routes: Routes = [
