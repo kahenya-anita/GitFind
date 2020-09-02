@@ -20,6 +20,7 @@ import { SearchresultComponent } from './Components/searchresult/searchresult.co
 import { NgProgressModule } from '@ngx-progressbar/core';
 import { NgProgressHttpClientModule } from '@ngx-progressbar/http-client';
 import { VisitedRepository } from './Directives/visited-repository';
+import { RepoSearchComponent } from './Components/repo-search/repo-search.component';
 
 
 @NgModule({
@@ -45,6 +46,7 @@ import { VisitedRepository } from './Directives/visited-repository';
     FormsModule,
     BrowserAnimationsModule,
     NgProgressModule,
+    RepoSearchComponent,
     NgProgressHttpClientModule
   ],
   providers: [],

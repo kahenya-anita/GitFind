@@ -9,7 +9,7 @@ import { NumberOfRepos } from '../../Model/number-of-repos';
   templateUrl: './repo-search.component.html',
   styleUrls: ['./repo-search.component.css']
 })
-export class RepoResultComponent implements OnInit {
+export class RepoSearchComponent implements OnInit {
 
   reposByName:RepositoriesByName[];
   reponame:string;
