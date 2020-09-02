@@ -15,7 +15,6 @@ import { MatProgressBarModule } from '@angular/material/progress-bar';
 import { ProfileComponent } from './Components/profile/profile.component';
 import { DaysAgoPipe } from './pipe/days-ago';
 import { NavBarComponent } from './Components/nav-bar/nav-bar.component';
-import { RepoSearchComponent } from './Components/repo-search/repo-search.component';
 import { NotFoundComponent } from './Components/not-found/not-found.component';
 import { SearchresultComponent } from './Components/searchresult/searchresult.component';
 import { NgProgressModule } from '@ngx-progressbar/core';
@@ -30,7 +29,6 @@ import { VisitedRepository } from './Directives/visited-repository';
     DaysAgoPipe,
     ProfileComponent,
     NavBarComponent,
-    RepoSearchComponent,
     NotFoundComponent,
     VisitedRepository,
     SearchresultComponent

@@ -1,6 +1,6 @@
 import { TestBed } from '@angular/core/testing';
 
-import { SearchGitService } from './search-git.services';
+import { SearchGitService } from './search-git';
 
 describe('SearchGitService', () => {
   let service: SearchGitService;
