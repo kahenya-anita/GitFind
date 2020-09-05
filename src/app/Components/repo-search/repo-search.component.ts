@@ -1,11 +1,12 @@
 import { Component, OnInit } from '@angular/core';
-import { SearchGitService } from '../../services/search-git';
+import { SearchGitService } from '../../service/search-git.service';
 import { RepositoriesByName } from '../../Model/repositories-by-name';
 import { ActivatedRoute } from '@angular/router'; 
 import { NumberOfRepos } from '../../Model/number-of-repos'; 
 
+
 @Component({
-  selector: 'app-repo-result',
+  selector: 'app-repo-search',
   templateUrl: './repo-search.component.html',
   styleUrls: ['./repo-search.component.css']
 })

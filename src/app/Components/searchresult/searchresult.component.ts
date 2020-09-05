@@ -3,7 +3,7 @@ import { ActivatedRoute, Router } from '@angular/router';
 import { Users } from '../../Model/users';
 import { RepositoriesByName } from '../../Model/repositories-by-name';
 import { Repositories } from '../../Model/repositories'; 
-import { SearchGitService } from 'src/app/services/search-git';
+import { SearchGitService } from '../../service/search-git.service';
 
 @Component({
   selector: 'app-searchresult',

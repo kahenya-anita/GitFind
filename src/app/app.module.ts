@@ -30,6 +30,7 @@ import { RepoSearchComponent } from './Components/repo-search/repo-search.compon
     DaysAgoPipe,
     ProfileComponent,
     NavBarComponent,
+    RepoSearchComponent,
     NotFoundComponent,
     VisitedRepository,
     SearchresultComponent
@@ -46,7 +47,6 @@ import { RepoSearchComponent } from './Components/repo-search/repo-search.compon
     FormsModule,
     BrowserAnimationsModule,
     NgProgressModule,
-    RepoSearchComponent,
     NgProgressHttpClientModule
   ],
   providers: [],

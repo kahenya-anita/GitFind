@@ -7,6 +7,12 @@ This project was generated with [Angular CLI](https://github.com/angular/angular
  A github finder that allows users to search for Github users by their username or by repository name.
 
  # How to navigate
+  At the top of the home page u'll see a navigation bar .
+  1) To search a repository click on find by repo and type name of the repository
+  2) To find a user click on find user and type in the correct username and click enter.
+  3) You can also click on view profile to view my profile.
+   * Incase you didn't type in the correct repo name or username ull get a 404 error.
+
 
 ## Development server
 

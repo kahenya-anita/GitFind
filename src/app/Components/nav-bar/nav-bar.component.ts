@@ -1,5 +1,5 @@
 import { Component, OnInit } from '@angular/core';
-import { SearchGitService } from '../../services/search-git';
+import { SearchGitService } from '../../service/search-git.service';
 import { Users } from '../../Model/users';
 import { Repositories } from '../../Model/repositories';
 import { Router } from '@angular/router';
